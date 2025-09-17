@@ -5,17 +5,17 @@ int main () {
     printf( " HELLO WORLD " "\n") ;
     
     // VARIABLE 
-    /*
+    
    int age = 18 ;
    printf(" MY AGE IS %d" , age ) ;
 
     printf( "\n" "MY NAME IS HARSH ") ;
-    */
+    
 //    int age ; printf(" ENTER THE AGE : ") ;
 //    scanf("%d" , &age) ;
 //    printf ( " YOUR AGE IS : %d" , age ) ;
 
-/*
+// SUM OF TWO NUMBERS 
     int num1 ; printf( " ENTER THE NUMBER 1 : ");
     scanf(" %d" , &num1) ;
         int num2 ; printf( " ENTER THE NUMBER 2 : ");
@@ -23,8 +23,8 @@ int main () {
         int sum = num1 + num2 ;
             printf( " YOUR SUM IS : %d" , sum) ;
 
-*/
-/*
+
+
     // FIND THE AREA OF SQUARE 
     float side ; printf( " ENTER THE SIZE OF SIDE OF A SQUARE : ") ;
     scanf( "%f" , &side ) ;
@@ -37,6 +37,7 @@ int main () {
     float area2 = radius*radius*3.1428 ;
     printf( " AREA OF A CIRCLE IS : %f " , area2) ;
             printf("\n") ;
+ // random code :) 
             for ( int i = 1 ; i<=5 ; i++) {
                 printf( " hello harsh \n") ;
             }
@@ -45,11 +46,11 @@ int main () {
             scanf("%d" , &num1) ;
             int num2 ; printf( " ENTER THE NUMBER 2 : ") ;
             scanf( "%d" , &num2) ;
-            int power = pow( num1 , num2) ;
+            int power = pow( num1 , num2) ;                         // pow is mathematical tool use for power of two number in math.io directory
             printf(" YOUR ANSWER : %d " , power) ;
 
-*/
-/*
+
+
         // OPERATORS 
                  int num1 ; printf( " \n ENTER THE NUMBER 1 : ") ;
             scanf("%d" , &num1) ;
@@ -70,8 +71,8 @@ int main () {
                     printf( "GG \n") ;
                 }
             }
-*/
-/*
+
+
             // IF-ELSE 
 
                 char alph ; printf( " ENTER THE ALPHABET : ") ;
@@ -87,8 +88,8 @@ int main () {
                 else {
                    printf( " GIVEN ALPHABET IS A CONSONANT ") ;
                 }
-*/
-   /*         
+
+           
                 //  TERNARY OPREATOR 
 
                  int num1 ; printf( " \n ENTER THE NUMBER 1 : ") ;
@@ -98,7 +99,7 @@ int main () {
                 num1 > num2 ? printf(" NUMBER 1 IS GREATER ") : printf( " NUMBER 2 IS GREATER ") ;                   // ternary opreator 
             // we can use ternary opreator instead of if-else if we have single statement but in this case when num1 = num2 then it will give wrong output so use this operator according your needs.
 
-*/
+
 
                 //  SWITCH-CASE 
                     float num1 ; printf( " ENTER THE NUMBER 1 : ") ;
@@ -157,3 +158,4 @@ int main () {
 
 
 }
+
