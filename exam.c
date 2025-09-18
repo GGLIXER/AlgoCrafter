@@ -188,7 +188,7 @@ int main () {
                 printf(" your factorial is : %d" , mul) ;
 
 
-
+// THIS CODE IS WRITTEN BY ψ [ℍ𝔹].
 
 
 
@@ -210,5 +210,6 @@ int main () {
 
 
 }
+
 
 
