@@ -134,6 +134,58 @@ int main () {
                 // we can use switch case if there are many conditions but it didnt read all cases if case 1 is true then all further cases gonna true 
 
 
+      
+        // FOR LOOP 
+
+        // print sum of n natural number 
+        int num ; printf( " enter the number : ") ;
+            scanf("%d" , &num) ;                               // use of & is to addressing the value of num like a pointer 
+
+            int sum = 0 ;
+            for ( int i = 1 ; i <= num ; i++) {
+                sum += i ;                                      // assigment opreator is used 
+
+            }
+            printf( " YOUR SUM IS : %d" , sum);
+
+
+
+            // WHILE LOOP 
+
+            // IDENTIFY GIVEN NUMBER IS PRIME OR NOT 
+
+         int num ; printf( " enter the number : ") ;
+            scanf("%d" , &num) ;     
+            
+            int i = 2 ; int prime = 0 ;
+            while ( i < num - 1) {
+                if ( num % i == 0) {
+                    prime = 1 ;                    // use for not a prime 
+                    break ;                         // for break the condition if atleast one condition is true 
+                }
+                    i++ ;                           // post increment 
+            }
+                if (prime == 1) {
+                    printf(" IT IS NOT A PRIME NUMBER ");
+                }
+                else {
+                    printf( " IT IS A PRIME NUMBER ") ;
+                }
+
+
+        // DO-WHILE LOOP 
+        // FIND THE FACTORIAL OF A NUMBER 
+        
+         int num ; printf( " enter the number : ") ;
+            scanf("%d" , &num) ;
+                int mul =1 ;
+
+            do {
+                mul *= num ;
+                num -= 1;
+
+            } while( num > 0) ;
+                printf(" your factorial is : %d" , mul) ;
 
 
 
@@ -158,4 +210,5 @@ int main () {
 
 
 }
+
 
