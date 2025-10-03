@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device - width, initial-scale = 1.0 ">
+        <title>Registration</title>
+    </head>
+        <body>
+            <h1>University Registration Form</h1>
+            <p>Please fill the form below to register.</p>
+            <hr>
+                <h2>Personal Details</h2>
+                    <form>
+                        <label for="name">First Name :</label>
+                                <input type="text" name="firstname" id="name" placeholder="e.g., Harsh ">
+                                    <br><br>
+                        <label for="last">Last Name :</label>
+                                <input type="text" name="lastname" id="last" placeholder="e.g., Bhatt ">
+                                    <br><br>
+                        <label for="DOB">Date of Birth : </label>
+                                <input type="date" name="DOB" id="DOB">
+                                    <br><br>
+                        <label for="GENDER"> GENDER: </label>
+                                    <br>
+                                <input type="radio" name="GENDER" id="male" value="MALE">
+                        <label for="male">MALE </label>
+                                    <br>
+                                <input type="radio" name="GENDER" id="female" value="FEMALE">
+                        <label for="female">FEMALE </label>  
+                                    <br>
+                                <input type="radio" name="GENDER" id="others" value="OTHERS">
+                        <label for="others">OTHERS </label>
+                                    <br><br>
+                        <label for="Photo"> Upload Your Photo :</label>
+                                    <br>
+                                <input type="file" name="Photo" id="Photo">
+                    </form>
+                            <br>
+                            <hr>
+                <h2>Contact Information</h2>
+                    <form>
+                        <label for="email"> Email Address : </label>
+                                <input type="email" name="Email" id="email" placeholder="e.g., xyz@gmail.com">
+                                    <br><br>
+                        <label for="ph.number">Phone Number : </label>
+                                <input type="number" name="ph.number" id="ph.number" placeholder="e.g., 9825658720 ">
+                                    <br><br>
+                        <label for="Address">Mailing Address : </label>
+                                    <br>
+                                <textarea name="Mailing Address" id="Address" placeholder="e.g., Street address, City, State, ZipCode" rows="5"></textarea>
+                    </form>
+                            <br>
+                            <hr>
+                <h2>Academic Information </h2>
+                    <form>
+                        <label for="course">Select Your Course :</label>
+                                    <br>
+                                <select name="course" id="course">
+                                    <option>-- Choose a Course -- </option>
+                                    <option value="CSE">CSE</option>
+                                    <option value="ME">ME</option>
+                                    <option value="EE">EE</option>
+                                </select>
+                                    <br><br>
+                        <label>Extracurricular Interests : </label>
+                                    <br>
+                                <input type="checkbox" name="Extracurricular Interests" id="extra" value="Sports">
+                        <label for="extra">Sports</label>
+                                    <br>
+                                <input type="checkbox" name="Extracurricular Interests" id="Music" value="Music and Arts">
+                        <label for="Music">Music and Arts</label>
+                                    <br>
+                                <input type="checkbox" name="Extracurricular Interests" id="Technology" value="Technology Clubs">
+                        <label for="Technology">Technology Clubs</label>
+                                    <br>
+                                <input type="checkbox" name="Extracurricular Interests" id="Volunteering" value="Volunteering">
+                        <label for="Volunteering">Volunteering</label>
+                    </form>
+                            <br>
+                            <hr>
+                <h2>Create Your Account </h2> 
+                    <form>
+                        <label for="password">Create a Password : </label>
+                                <input type="password" name="password" id="password">
+                                    <br><br>
+                        <label for="Question">Security Question : </label>
+                                <select name="Security Question" id="Question">
+                                    <option>-- Select a Security Question --</option>
+                                    <option value="What is your pet name?">What is your pet name?</option>
+                                    <option value="What is your school friend name?" id="Question">What is your school friend name?</option>
+                                </select>
+                                    <br><br>
+                        <label for="ans">Security Answer : </label>
+                                <input type="text" name="Security Answer" id="ans">
+                                    <br><br>
+                                <input type="checkbox" name="Term and Condition" id="yes" value="yes">
+                        <label for="yes"> I agree with all Terms and Conditions.</label>
+                    </form>
+                            <br>
+                            <hr>
+                        <button type="submit"> Register</button>
+                        <button type="reset"> Clear Form</button>
+        </body>
+    </html>
